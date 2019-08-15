@@ -13,26 +13,28 @@ class App extends Component {
   }
 
   handleClick = (id) => {
-    const dinos = this.state.dinos
-    const clickedDino = dinos.filter(dino => dino.id === id)
+    const dinosCopy = this.state.dinos
+    const clickedDino = dinosCopy.filter(dino => dino.id === id)
 
     if(clickedDino[0].clicked) {
-      for (let i = 0; i > dinos.length; i++) {
-        dinos[i].clicked = false;
+      console.log(dinosCopy.length)
+      for (let i = 0; i < dinosCopy.length; i++) {
+        console.log(dinosCopy.length)
+        dinosCopy[i].clicked = false;
       }
       this.setState({
         message: "You already clicked that one, now you have to start over",
         score: 0,
-        dinos: dinos
+        dinos: dinosCopy
       })
     }
     else if (this.state.topscore < 6) {
       clickedDino[0].clicked = true
 
-      dinos.sort(function(a,b){return 0.5 - Math.random()})
+      dinosCopy.sort(function(a,b){return 0.5 - Math.random()})
 
       this.setState({
-        dinos: dinos,
+        dinos: dinosCopy,
         score: this.state.score + 1,
         message: "Great, that one was not clicked on, keep going!"
       }, () => {
@@ -46,13 +48,13 @@ class App extends Component {
     else {
       clickedDino[0].clicked = true
 
-      for(let i = 0; i < dinos.length; i++) {
-        dinos[i].clicked = false;
+      for(let i = 0; i < dinosCopy.length; i++) {
+        dinosCopy[i].clicked = false;
       }
-      dinos.sort(function(a,b){return 0.5 - Math.random()})
+      dinosCopy.sort(function(a,b){return 0.5 - Math.random()})
 
       this.setState({
-        dinos: dinos,
+        dinos: dinosCopy,
         score: 0,
         topscore: 6,
         message: "CONGRADULATIONS!, now try doing that again"
@@ -63,9 +65,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar message={this.state.message} score={this.state.score} topscore={this.state.topscore} />
+        <Header />
         <Wrapper>
-          <Navbar message={this.state.message} score={this.state.score} topscore={this.state.topscore} />
-          <Header />
           {this.state.dinos.map(dino => (
             <Card
               handleClick={this.handleClick}
