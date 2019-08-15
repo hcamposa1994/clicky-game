@@ -2,31 +2,37 @@
     {
         "id": 1,
         "name": "T-Rex",
-        "image": "https://www.thoughtco.com/thmb/Qx7iWCAZ-PArE3af1xu4A7ViAfM=/1574x0/filters:no_upscale():max_bytes(150000):strip_icc()/t-rex--artwork-460716257-5b495432c9e77c0037077db9.jpg"
+        "image": "https://www.thoughtco.com/thmb/Qx7iWCAZ-PArE3af1xu4A7ViAfM=/1574x0/filters:no_upscale():max_bytes(150000):strip_icc()/t-rex--artwork-460716257-5b495432c9e77c0037077db9.jpg",
+        "clicked": false
     },
     {
         "id": 2,
         "name": "Triceratops",
-        "image": "https://www.thoughtco.com/thmb/OKEgcY9nCVhVoFAJ7J8G0hWLYu4=/1775x0/filters:no_upscale():max_bytes(150000):strip_icc()/side-on-view-model-of-a-triceratops--71129647-5b4950e3c9e77c00370707d0.jpg"
+        "image": "https://www.thoughtco.com/thmb/OKEgcY9nCVhVoFAJ7J8G0hWLYu4=/1775x0/filters:no_upscale():max_bytes(150000):strip_icc()/side-on-view-model-of-a-triceratops--71129647-5b4950e3c9e77c00370707d0.jpg",
+        "clicked": false
     },
     {
         "id": 3,
         "name": "Stegosaurus",
-        "image": "https://www.thoughtco.com/thmb/p0krCID55Ubo14eJqENZC-Mi5zQ=/1596x0/filters:no_upscale():max_bytes(150000):strip_icc()/stegosaurus-dinosaur--artwork-165564461-5b49515e46e0fb005b6f65a8.jpg"
+        "image": "https://www.thoughtco.com/thmb/p0krCID55Ubo14eJqENZC-Mi5zQ=/1596x0/filters:no_upscale():max_bytes(150000):strip_icc()/stegosaurus-dinosaur--artwork-165564461-5b49515e46e0fb005b6f65a8.jpg",
+        "clicked": false
     },
     {
         "id": 4,
         "name": "Velociraptor",
-        "image": "https://www.thoughtco.com/thmb/1ZwBWpz8ePeczy0Gqlx-bVaCXEE=/1635x0/filters:no_upscale():max_bytes(150000):strip_icc()/velociraptor-dinosaur-roaring--white-background--594380991-5b49514b46e0fb0037e558ce.jpg"
+        "image": "https://www.thoughtco.com/thmb/1ZwBWpz8ePeczy0Gqlx-bVaCXEE=/1635x0/filters:no_upscale():max_bytes(150000):strip_icc()/velociraptor-dinosaur-roaring--white-background--594380991-5b49514b46e0fb0037e558ce.jpg",
+        "clicked": false
     },
     {
         "id": 5,
         "name": "Spinosaurus",
-        "image": "https://www.thoughtco.com/thmb/TyZrxGRbC507e4cPLQwIWBXzNBg=/1550x0/filters:no_upscale():max_bytes(150000):strip_icc()/spinosaurus-dinosaur--artwork-536229636-5b4951ba46e0fb003776d18c.jpg"
+        "image": "https://www.thoughtco.com/thmb/TyZrxGRbC507e4cPLQwIWBXzNBg=/1550x0/filters:no_upscale():max_bytes(150000):strip_icc()/spinosaurus-dinosaur--artwork-536229636-5b4951ba46e0fb003776d18c.jpg",
+        "clicked": false
     },
     {
         "id": 6,
         "name": "Archaeopteryx",
-        "image": "https://www.thoughtco.com/thmb/XR5tNEJLQXwUdq1RmF8RWJE-dz0=/1537x0/filters:no_upscale():max_bytes(150000):strip_icc()/archaeopteryx-dinosaur--artwork-488635777-5b495271c9e77c001a72f1d8.jpg"
+        "image": "https://www.thoughtco.com/thmb/XR5tNEJLQXwUdq1RmF8RWJE-dz0=/1537x0/filters:no_upscale():max_bytes(150000):strip_icc()/archaeopteryx-dinosaur--artwork-488635777-5b495271c9e77c001a72f1d8.jpg",
+        "clicked": false
     }
 ]
