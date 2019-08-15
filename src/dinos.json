@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "T-Rex",
-        "image": "https://www.thoughtco.com/thmb/Qx7iWCAZ-PArE3af1xu4A7ViAfM=/1574x0/filters:no_upscale():max_bytes(150000):strip_icc()/t-rex--artwork-460716257-5b495432c9e77c0037077db9.jpg",
+        "image": "images/T-rex.PNG",
         "clicked": false
     },
     {
