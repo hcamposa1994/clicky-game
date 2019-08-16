@@ -1,6 +1,5 @@
 import React from 'react'
 import "./css/card.css"
-
 const card =(props) => {
     const {name, image, handleClick, id} = props
     return (
