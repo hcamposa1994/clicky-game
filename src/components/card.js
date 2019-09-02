@@ -5,7 +5,7 @@ const card =(props) => {
     return (
         <div className="card" onClick={() => handleClick(id)}>
             <div className="img-container">
-                <img alt={name} src={image} />
+                <img alt={name} src={image} className="img-fluid" />
             </div>
         </div>
     )
